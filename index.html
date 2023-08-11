@@ -1,13 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets//vendor/normalize.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Landing Page</title>
   </head>
   <body>
+    <div id="wallpaper" class="wallpaper" data-image="images/tipaza.jpg"></div>
+    <div class="content">
+      <aside class="side">
+        <figure class="picture" id="picture">
+          <div class="picture-shadow"></div>
+          <img
+            id="pictureImage"
+            class="picture-image"
+            src="./assets/images/Younsi_Farouk.png"
+            alt="Portrait of Younsi Farouk"
+            width="320"
+            height="320"
+          />
+        </figure>
+      </aside>
+      <main class="about">
+        <h1 class="name">Hi, I'm Younsi Farouk</h1>
+        <p class="job">Web Developper</p>
+        <hr class="hr" />
+        <div class="description">
+          <p>
+            I spend my time developping awsome website aver the world, helping
+            startups and tech businesses obtain the best design !!!.
+          </p>
+        </div>
+        <div class="contact">
+          <a class="button" href="mailto:pharouky@gmail.com"> Get in touch </a>
+        </div>
+        <ul class="social">
+          <li>
+            <a>
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a>
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a>
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </main>
+    </div>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"
+    ></script>
     <script src="./script/script.js"></script>
   </body>
 </html>
